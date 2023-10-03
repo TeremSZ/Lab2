@@ -11,8 +11,8 @@ function strong(string) {
 const template = strong('making things useful');
 console.log(template);
 
-const updateInnerHTMLWithAdjacent = function(selector, htmlString) {
+const updateInnerHTMLC = function(selector, htmlString) {
     document.querySelector(selector).insertAdjacentHTML('beforeend', htmlString);
 }
 
-updateInnerHTMLWithAdjacent('section', template);
+updateInnerHTMLC('section', template);
